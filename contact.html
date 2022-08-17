@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url('bgimage3.jpg')">
+    <h1 style="text-align:center">Contact Me</h1><br/><br/><br/>
+
+    <a href="index.html">Homepage</a><br/><br/><br/>
+    <!-- modify this form HTML and place wherever you want your form -->
+<form
+action="https://formspree.io/f/mdojoybv"
+method="POST"
+>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" placeholder="John" required><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+
+  <label for="youremail">Your email:</label><br>
+    <input type="email" name="email" placeholder="your_email@domain.com" required><br><br>
+ 
+ 
+  <label for="yourmessage">Your message:</label><br><br>
+    <textarea name="message"></textarea><br><br>
+    <h3>Select Favourite Destination</h3>
+    <input type="radio" id="cpt" name="fav-dest" value="Cape Town">    <label for="cpt">Cape Town</label><br><br>
+    <input type="radio" id="JBG" name="fav-dest" value="JOBURG">    <label for="jbg">JOBURG</label><br><br>
+    <input type="radio" id="FS" name="fav-dest" value="FREE">    <label for="jbg">Bloemfontein</label><br><br>
+    <input type="radio" id="EC" name="fav-dest" value="ECSPE">    <label for="jbg">Port elizabeth</label><br><br>
+
+ 
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+
+</form>
+</body>
+</html>
